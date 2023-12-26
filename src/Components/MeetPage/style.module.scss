@@ -1,0 +1,226 @@
+.meets {
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    &__img {
+        width: 44%;
+        height: 300px;
+        
+        
+        img {
+            
+            height: 100%;
+            
+        }
+    }
+    &__mainInfo {
+        &_container {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-content: start;
+        }
+        &_descr {
+            color: #000;
+            font-family: Montserrat;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-align: left;
+        }
+        &_type {
+            display: flex;
+            margin-top: 25px;
+            border-radius: 10px;
+            border: 1px solid var(--gray_text, #888);
+            width: 110px;
+            height: 35px;
+            justify-content: center;
+            align-items: center;
+            color: var(--gray_text, #888);
+            font-family: Montserrat;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        &_status {
+            margin-top: 40px;
+
+            display: flex;
+        }
+        &_time {
+            margin-top: 40px;
+   
+            display: flex;
+        }
+        &_status_img {
+            height: 26px;
+            width: 30px;
+            margin-right: 12px;
+        }
+    }
+    &__otziv {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 44%;
+        border: 1px solid var(--gray_stroke, #D0D2D8);
+        margin-top: 50px;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        &_title {
+            color: #000;
+            font-family: Montserrat;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            position: absolute;
+            left: 10px;
+            top: 4px;
+        }
+        &_container {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+    
+}
+.aboutMeet {
+
+    display: flex;
+    flex-direction: column;
+    &__title {
+        display: flex;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__descr {
+        margin-top: 60px;
+        display: flex;
+        text-align: left;
+        color: rgba(0, 0, 0, 0.90);
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 110%; /* 27.6px */
+    }
+
+}
+.expert {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    &__title {
+        display: flex;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__img {
+        border-radius: 10000px;
+    }
+   
+
+}
+.expert {
+
+
+    &__container {
+        margin-top: 60px;
+        display: flex;
+
+    }
+    &__img {
+        width: 200px;
+        height: 200px;
+        &_container {
+            margin-right: 50px;
+        }
+        
+    }
+    &__descr {
+        
+
+
+        &_container {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+
+            justify-content: center;
+        }
+        &_fullname {
+            color: #000;
+            font-family: Montserrat;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        &_speciality {
+            color: #000;
+            font-family: Montserrat;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 6px;
+        }
+        &_phone {
+            color: #000;
+            font-family: Montserrat;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 16px;
+        }
+        &_email {
+            color: #2C41FF;
+            font-family: Montserrat;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 16px;
+        }
+    }
+}
+.someMeetings {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    &__title {
+        display: flex;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+}
+.cards_container {
+    display: flex;
+}

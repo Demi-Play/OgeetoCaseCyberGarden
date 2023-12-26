@@ -1,0 +1,154 @@
+
+
+
+.profile {
+
+    &__container {
+        margin-top: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__user {
+        &_img {
+            &_container {
+                display: flex;
+                flex-direction: column;
+                margin-right: 50px;
+            }
+        }
+        &_container {
+            display: flex;
+        }
+        &_info_container {
+            text-align: left;
+            margin-top: 20px;
+            display: flex;
+            text-align: left;
+            flex-direction: column;
+        }
+        &_fullName {
+            color: #000;
+            font-family: Montserrat;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+                span {
+                    color: #FD0;
+                }
+            
+        }
+        &_spaciality {
+            color: #000;
+            font-family: Montserrat;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 25px;
+        }
+        &_socialMedia {
+            color: #000;
+            font-family: Montserrat;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 25px;
+        }
+        &_email {
+            color: #000;
+            font-family: Montserrat;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 25px;
+        }
+        &_role {
+            color: #000;
+            font-family: Montserrat;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin-top: 20px;
+        }
+        &_progress {
+            &_container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+            }
+            &_line {
+                height: 2px;
+                width: 140%;
+                background: linear-gradient(90deg, #ffdd00,#d0d2d8);
+                padding: 0 30px 0 30px;
+                margin: 0 10px 0 10px;
+            }
+        }
+    }
+}
+.meeting {
+    &__container {
+     height: 1400px;
+     margin-top: 60px;
+    } 
+    &__inputs {
+         width: 90%;
+         height: 46px;
+         border-radius: 10px;
+         border: 1px solid #000;
+         padding-left: 40px;
+    }
+    
+ }
+ .container {
+     display: flex;
+     justify-content: center;
+     
+     
+ }
+ .select {
+     margin-right: 50px;
+     height: 35px;
+     border-radius: 10px;
+     border: 1px solid var(--gray_stroke, #D0D2D8);
+     width: 200px;
+     &__container {
+         display: flex;
+         width: 93%;
+         margin-top: 30px;
+     }
+    }
+ .NewContainer {
+     display: flex;
+     justify-content: flex-end;
+     margin-top: 30px;
+ }
+ .search_container {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .search__descr {
+     margin-right: 25px;
+ }
+.myMeets {
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    text-align: left;
+    justify-content: start;
+    &__title {
+        margin-top: 150px;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}

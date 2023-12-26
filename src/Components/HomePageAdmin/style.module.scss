@@ -1,0 +1,102 @@
+
+
+.container {
+    width: 100%;
+}
+.muza {
+    &__container {
+        height: 400px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        &_button {
+            margin-top: 200px;
+            border-radius: 15px;
+            background: var(--linear, #FD0);
+            width: 60%;
+            height: 130px;
+            color: #000;
+            font-family: Montserrat;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+   
+    &__title {
+        margin-top: 150px;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 143.016px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: left;
+        display: flex;
+        width: 90%;
+
+    }
+    &__descr {
+        &_container {
+            display: flex;
+            justify-content: flex-end;
+        }
+        margin-top: 50px;
+        margin-left: 70px;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+        display: flex;
+        width: 60%;
+
+    }
+}
+.meeting {
+   &__container {
+    height: 1400px;
+   } 
+   &__inputs {
+        width: 90%;
+        height: 46px;
+        border-radius: 10px;
+        border: 1px solid #000;
+        padding-left: 40px;
+   }
+   
+}
+.container {
+    display: flex;
+    justify-content: center;
+    
+}
+.select {
+    margin-right: 50px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid var(--gray_stroke, #D0D2D8);
+    width: 200px;
+    &__container {
+        display: flex;
+        width: 93%;
+        margin-top: 30px;
+    }
+   }
+.NewContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+.search_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search__descr {
+    margin-right: 25px;
+}
